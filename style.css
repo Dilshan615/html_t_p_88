@@ -1,0 +1,107 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1a1b26;
+    color: #c0c5ce;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.generator-container {
+    background-color: #24283b;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 450px;
+}
+
+h1 {
+    text-align: center;
+    color: #7aa2f7;
+    margin-top: 0;
+}
+
+.password-display-container {
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+#password-display {
+    flex-grow: 1;
+    padding: 12px;
+    font-size: 1.2rem;
+    background-color: #16161e;
+    border: 1px solid #414868;
+    color: #c0c5ce;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#copy-btn {
+    padding: 0 20px;
+    background-color: #7aa2f7;
+    color: #1a1b26;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+#copy-btn:hover {
+    background-color: #567de4;
+}
+
+.options {
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2d3248;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.option label {
+    font-weight: 500;
+}
+
+.option input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    background-color: #16161e;
+    border: 1px solid #414868;
+    color: #c0c5ce;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.option input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+#generate-btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: #9ece6a;
+    color: #1a1b26;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#generate-btn:hover {
+    background-color: #7ab74c;
+}
